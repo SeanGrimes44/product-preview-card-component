@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:ital,wght@0,500;1,700&display=swap');
+
+.attribution { font-size: 11px; text-align: center; margin-top: 5em;}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    background-color: hsl(30, 38%, 92%);
+    color: hsl(228, 12%, 48%);
+}
+h1 {
+    font-family: "Fraunces", serif;
+    font-size: 700;
+    color: hsl(212, 21%, 14%);
+    line-height: 30px;
+}
+.card {
+    display: flex;
+    min-width: 500px;
+    max-width: 600px;
+    width: 60%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 8em;
+    height:450px
+}
+
+.perfume {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+.text {
+    margin: auto;
+    padding: 30px;
+}
+
+p {
+    font-size: 14px;
+}
+
+.picture img{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    height: 450px;
+}
+
+button {
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0px;
+    margin-left: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    background-color: hsl(158, 36%, 37%);
+    gap: 5px;
+}
+
+button:hover {
+    background-image: linear-gradient(rgb(0 0 0/40%) 0 0);
+    cursor: pointer;
+  }
+
+.price {
+    display: flex;
+    align-items: center;
+}
+
+.current-price {
+    color:hsl(158, 36%, 37%);
+    font-family: "Fraunces", serif;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.old-price {
+    margin-left: 20px;
+    justify-content: center;
+    font-weight: 700;
+}
+
+.description {
+    margin-bottom: 0px;
+}
+
+@media only screen and (max-width: 550px) {
+
+}
